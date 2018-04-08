@@ -23,7 +23,7 @@ public class UserServiceImpl implements IUserService {
             UserInfo record = new UserInfo();
             record.setUserName("xrh"+i);
             if(i == 1){
-                record.setUserName(null);
+                //record.setUserName(null);
             }
             mapper.insert(record);
         }
